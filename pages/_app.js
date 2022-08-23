@@ -1,7 +1,13 @@
-import '../styles/globals.css'
+import React, { useEffect } from "react";
+import "../styles/globals.css";
+import { ThemeProvider } from "next-themes";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <ThemeProvider defaultTheme="system">
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
 }
 
-export default MyApp
+export default MyApp;

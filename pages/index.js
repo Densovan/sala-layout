@@ -5,7 +5,7 @@ import MainLayout from "../components/main-layout";
 const Index = () => {
   return (
     <div>
-      <MainLayout />
+      {/* <MainLayout /> */}
       <Home />
     </div>
   );

@@ -11,26 +11,13 @@ body {
   font-family: "PT Sans", sans-serif;
 }
 
-/* :root {
-  --color-default: #f5f5f5;
-} */
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --color-default: #252b30;
-  }
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
 }
-[data-theme="dark"] {
-  --color-default: #252b30;
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-[data-theme="black"] {
-  --color-default: #000000;
-}
-[data-theme="🌸"] {
-  --color-default: #ffabc8;
-}
-[data-theme="🐬"] {
-  --color-default: #7ec6ff;
-}
-[data-theme="🐤"] {
-  --color-default: #ffd65a;
-} */

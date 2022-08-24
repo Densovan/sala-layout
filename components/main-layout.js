@@ -22,6 +22,13 @@ const MainLayout = () => {
           </button>
           <br />
           <button
+            onClick={() => setTheme("primary")}
+            className="bg-base-300 py-1 px-8 rounded-lg font-bold mt-2 w-full"
+          >
+            Primary
+          </button>
+          <br />
+          <button
             onClick={() => setTheme("dark")}
             className="bg-base-300 py-1 px-8 rounded-lg font-bold mt-2 w-full"
           >
